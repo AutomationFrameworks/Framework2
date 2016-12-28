@@ -1,0 +1,16 @@
+2016-12-04 12:47:14 INFO  Scenario_Search:25 - Executing the TC_ID  GB_01 order is 1.0
+2016-12-04 12:47:56 INFO  Scenario_Search:49 - Failed as Actual Result is  Sorry! There are no products to display.  Expected Result is Sorry! There are no products to
+2016-12-04 12:56:01 INFO  Scenario_Search:27 - Executing the TC_ID  GB_01 order is 1.0
+2016-12-04 12:56:39 INFO  Scenario_Search:51 - Failed as Actual Result is  Sorry! There are no products to display.  Expected Result is Sorry! There are no products to
+2016-12-04 13:05:18 INFO  Scenario_Search:72 - Executing the TC_ID  GB_02 order is 1.0
+2016-12-04 13:06:06 INFO  Scenario_Search:98 - Failed as Actual Result is  191  Expected Result is 191.0
+2016-12-04 13:07:24 INFO  Scenario_Search:72 - Executing the TC_ID  GB_02 order is 1.0
+2016-12-04 13:08:07 INFO  Scenario_Search:94 - Passed as Actual Result is  191  Expected Result is 191
+2016-12-04 13:13:41 INFO  Scenario_Search:27 - Executing the TC_ID  GB_01 order is 1.0
+2016-12-04 13:14:44 INFO  Scenario_Search:47 - Passed as Actual Result is  Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2016-12-04 13:14:52 INFO  Scenario_Search:27 - Executing the TC_ID  GB_01 order is 2.0
+2016-12-04 13:15:39 INFO  Scenario_Search:47 - Passed as Actual Result is  Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2016-12-04 13:19:13 INFO  Scenario_Search:27 - Executing the TC_ID  GB_01 order is 1.0
+2016-12-04 13:19:48 INFO  Scenario_Search:47 - Passed as Actual Result is  Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2016-12-04 13:19:56 INFO  Scenario_Search:27 - Executing the TC_ID  GB_01 order is 2.0
+2016-12-04 13:20:37 INFO  Scenario_Search:47 - Passed as Actual Result is  Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.

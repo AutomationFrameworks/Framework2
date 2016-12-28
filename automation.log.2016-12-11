@@ -1,0 +1,6 @@
+2016-12-11 15:47:17 INFO  Scenario_Cart:32 - Executing the Testcase GB_05 Order is  1.0
+2016-12-11 15:48:01 INFO  Scenario_Cart:56 - Passed as Actual Result is  Raw Mango - Diced Expected Result is Raw Mango - Diced
+2016-12-11 15:53:52 INFO  Scenario_Cart:86 - Executing the Testcase GB_08 Order is  1.0
+2016-12-11 15:56:28 INFO  Scenario_Cart:86 - Executing the Testcase GB_08 Order is  1.0
+2016-12-11 15:59:07 INFO  Scenario_Cart:86 - Executing the Testcase GB_08 Order is  1.0
+2016-12-11 16:00:26 INFO  Scenario_Cart:114 - Passed as Actual Result is  There are no items in your basket. Expected Result is There are no items in your basket.

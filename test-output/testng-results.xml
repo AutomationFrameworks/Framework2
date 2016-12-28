@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="285730" started-at="2016-12-15T09:49:06Z" finished-at="2016-12-15T09:53:52Z">
+    <groups>
+      <group name="regression">
+        <method signature="Scenario_Cart.testAddCart(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Cart@ea1a8d5]" name="testAddCart" class="Scenario_Component.Scenario_Cart"/>
+        <method signature="Scenario_Cart.testDeleteCart(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Cart@ea1a8d5]" name="testDeleteCart" class="Scenario_Component.Scenario_Cart"/>
+        <method signature="Scenario_Search.testValidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@2a742aa2]" name="testValidSearch" class="Scenario_Component.Scenario_Search"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Scenario_Search.testInvalidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@2a742aa2]" name="testInvalidSearch" class="Scenario_Component.Scenario_Search"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="285730" started-at="2016-12-15T09:49:06Z" finished-at="2016-12-15T09:53:52Z">
+      <class name="Scenario_Component.Scenario_Cart">
+        <test-method status="PASS" signature="initialsetup()[pri:0, instance:Scenario_Component.Scenario_Cart@ea1a8d5]" name="initialsetup" is-config="true" duration-ms="231" started-at="2016-12-15T15:19:06Z" finished-at="2016-12-15T15:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method status="PASS" signature="testDeleteCart(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Cart@ea1a8d5]" name="testDeleteCart" duration-ms="61179" started-at="2016-12-15T15:19:07Z" data-provider="dp_DeleteCart" finished-at="2016-12-15T15:20:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, =, Execute_Flag=Y, TC_ID=GB_08, TC_Name=Delete_1_Item, Script_name=DeleteCart, Quantity=1.0, Search_item=Raw Mango -Diced, Exp_Result=There are no items in your basket.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCart -->
+      </class> <!-- Scenario_Component.Scenario_Cart -->
+      <class name="Scenario_Component.Scenario_Search">
+        <test-method status="PASS" signature="testInvalidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@2a742aa2]" name="testInvalidSearch" duration-ms="37534" started-at="2016-12-15T15:20:08Z" data-provider="dp_InvalidSearch" finished-at="2016-12-15T15:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, =, Execute_Flag=Y, TC_ID=GB_01, TC_Name=InvalidSearch_&&###, Script_name=Invalid_Search, Search_item=&&###, Exp_Result=Sorry! There are no products to display.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidSearch -->
+        <test-method status="PASS" signature="testInvalidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@2a742aa2]" name="testInvalidSearch" duration-ms="47140" started-at="2016-12-15T15:20:45Z" data-provider="dp_InvalidSearch" finished-at="2016-12-15T15:21:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=2.0, =, Execute_Flag=Y, TC_ID=GB_01, TC_Name=InvalidSearch_###$$$, Script_name=Invalid_Search, Search_item=###$$$, Exp_Result=Sorry! There are no products to display.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidSearch -->
+        <test-method status="PASS" signature="testValidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@2a742aa2]" name="testValidSearch" duration-ms="50161" started-at="2016-12-15T15:21:33Z" data-provider="dp_ValidSearch" finished-at="2016-12-15T15:22:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, =, Execute_Flag=Y, TC_ID=GB_02, TC_Name=ValidSearch_Mango, Script_name=Valid_Search, Search_item=Mango, Exp_Result=191.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidSearch -->
+        <test-method status="PASS" signature="testValidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@2a742aa2]" name="testValidSearch" duration-ms="45133" started-at="2016-12-15T15:22:23Z" data-provider="dp_ValidSearch" finished-at="2016-12-15T15:23:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, =, Execute_Flag=Y, TC_ID=GB_03, TC_Name=ValidSearch_Rice, Script_name=Valid_Search, Search_item=Rice, Exp_Result=428.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidSearch -->
+        <test-method status="PASS" signature="testValidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@2a742aa2]" name="testValidSearch" duration-ms="43853" started-at="2016-12-15T15:23:08Z" data-provider="dp_ValidSearch" finished-at="2016-12-15T15:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, =, Execute_Flag=Y, TC_ID=GB_04, TC_Name=ValidSearch_Johnson powder, Script_name=Valid_Search, Search_item=Johnson powder, Exp_Result=4.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidSearch -->
+      </class> <!-- Scenario_Component.Scenario_Search -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

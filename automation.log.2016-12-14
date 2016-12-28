@@ -1,0 +1,3 @@
+2016-12-14 10:20:30 INFO  Scenario_Cart:86 - Executing the Testcase GB_08 Order is  1.0
+2016-12-14 10:21:19 INFO  Scenario_Cart:114 - Passed as Actual Result is  There are no items in your basket. Expected Result is There are no items in your basket.
+2016-12-14 10:21:22 INFO  Scenario_Search:27 - Executing the TC_ID  GB_01 order is 1.0
